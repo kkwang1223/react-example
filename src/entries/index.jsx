@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-// import WordRelay from '../src/pages/WordRelay/WordRelay';
+// import WordRelay from '../pages/WordRelay';
 // ReactDom.render(<WordRelay />, document.querySelector('#root'));
 
-import NumBaseball from '../pages/NumBaseBall/NumBaseball';
+import NumBaseball from '../pages/NumBaseball';
 ReactDom.render(<NumBaseball />, document.querySelector('#root'));
