@@ -9,7 +9,7 @@ module.exports = {
   },
 
   entry: {
-    app: './index',
+    app: './src/entries/index',
   },
 
   module: {

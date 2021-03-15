@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import TryList from './TryList';
+import TryList from '../../service/NumBaseball/TryList';
 
 /**
  * 문제 숫자 생성
