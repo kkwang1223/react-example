@@ -16,3 +16,7 @@ ReactDom.render(<ResponseCheck />, document.querySelector('#responseCheck'));
 // 가위바위보
 import RockScissorsPaper from '../pages/RockScissorsPaper';
 ReactDom.render(<RockScissorsPaper />, document.querySelector('#rockScissorsPaper'));
+
+// 로또 추첨기
+import Lotto from '../pages/Lotto';
+ReactDom.render(<Lotto />, document.querySelector('#lotto'));
