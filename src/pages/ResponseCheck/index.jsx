@@ -51,7 +51,7 @@ function ResponseCheck() {
 
   return (
     <>
-      <div>반응속도 체크</div>
+      <div>[반응속도 체크]</div>
       <div id="screen" className={status} onClick={onClickScreen}>
         {message}
       </div>

@@ -78,7 +78,7 @@ const NumBaseball = () => {
 
   return (
     <>
-      <div>숫자야구</div>
+      <div>[숫자야구]</div>
       <div>10번 안에 맞춰야합니다. 4자리 숫자를 입력하세요.</div>
       <form onSubmit={onSubmitForm}>
         <input type="number" onChange={onChangeInput} ref={inputRef} value={value}></input>
