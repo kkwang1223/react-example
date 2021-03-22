@@ -20,3 +20,7 @@ ReactDom.render(<RockScissorsPaper />, document.querySelector('#rockScissorsPape
 // 로또 추첨기
 import Lotto from '../pages/Lotto';
 ReactDom.render(<Lotto />, document.querySelector('#lotto'));
+
+// 틱택토
+import TicTacToe from '../pages/TicTacToe';
+ReactDom.render(<TicTacToe />, document.querySelector('#ticTacToe'));
