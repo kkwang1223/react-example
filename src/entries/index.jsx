@@ -24,3 +24,7 @@ ReactDom.render(<Lotto />, document.querySelector('#lotto'));
 // 틱택토
 import TicTacToe from '../pages/TicTacToe';
 ReactDom.render(<TicTacToe />, document.querySelector('#ticTacToe'));
+
+// 지뢰찿기
+import MineSearch from '../pages/MineSearch';
+ReactDom.render(<MineSearch />, document.querySelector('#mineSearch'));
