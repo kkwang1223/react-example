@@ -33,6 +33,8 @@ module.exports = {
   },
 
   devServer: {
+    // react router 새로고침 이슈 해결
+    historyApiFallback: true,
     publicPath: '/dist/',
     hot: true,
   }

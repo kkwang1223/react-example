@@ -3,7 +3,7 @@ import Tr from './Tr';
 
 function Table({ dispatch, tableData }) {
   return (
-    <table>
+    <table id="ticTacToe">
       <tbody>
         {Array(tableData.length).fill().map((item, idx) => (
           <Tr key={idx} dispatch={dispatch} rowIdx={idx} rowData={tableData[idx]}>{''}</Tr>
