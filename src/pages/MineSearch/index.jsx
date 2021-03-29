@@ -1,6 +1,6 @@
 import React, {createContext, useEffect, useMemo, useReducer} from 'react';
-import Form from '../../service/MineSearch/Form';
-import Table from '../../service/MineSearch/Table';
+import Form from '../../components/MineSearch/Form';
+import Table from '../../components/MineSearch/Table';
 
 export const CODE = {
   MINE: -7,
