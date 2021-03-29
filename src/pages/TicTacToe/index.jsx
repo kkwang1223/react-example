@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer } from 'react';
-import Table from '../../service/TicTacToe/Table';
+import Table from '../../components/TicTacToe/Table';
 
 const initalState = {
   winner: '',

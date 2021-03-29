@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
-import Ball from '../../service/Lotto/Ball';
+import Ball from '../../components/Lotto/Ball';
 
 function getWinNumbers() {
   const candidtates = Array(45).fill().map((v, i) => i + 1);

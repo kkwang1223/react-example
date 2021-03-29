@@ -9,7 +9,7 @@ import Lotto from '../pages/Lotto';
 import TicTacToe from '../pages/TicTacToe';
 import MineSearch from '../pages/MineSearch';
 
-export const games = [
+export const pages = [
   {
     url: '/WordRelay',
     title: '끝말잇기',
@@ -48,12 +48,12 @@ export const games = [
 ];
 
 // props: { history: {...}, location: {...}, match: {...} }
-const GameItems = (props) => {
+const Pages = (props) => {
   const { url } = props.match;
-  const Game = games.find(item => item.url === url).page;
+  const Page = pages.find(item => item.url === url).page;
   return (
-    <Game />
+    <Page />
   );
 };
 
-export default withRouter(GameItems);
+export default withRouter(Pages);
