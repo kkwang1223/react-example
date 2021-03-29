@@ -28,3 +28,7 @@ ReactDom.render(<TicTacToe />, document.querySelector('#ticTacToe'));
 // 지뢰찿기
 import MineSearch from '../pages/MineSearch';
 ReactDom.render(<MineSearch />, document.querySelector('#mineSearch'));
+
+// 게임 리스트
+import Home from './GameList';
+ReactDom.render(<Home />, document.querySelector('#root'));

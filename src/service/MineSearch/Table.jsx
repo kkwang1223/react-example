@@ -5,7 +5,7 @@ import { TableContext } from '../../pages/MineSearch'
 function Table() {
   const { tableData } = useContext(TableContext);
   return(
-    <table>
+    <table id="mineSearch">
       <tbody>
         { !!tableData.length &&
           Array(tableData.length).fill().map((item, idx) => <Tr key={idx} rowIdx={idx} />)

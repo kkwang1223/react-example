@@ -22,12 +22,7 @@ function Lotto () {
   const [redo, setRedo] = useState(false);
 
   useEffect(() => {
-    runTimer();
-  }, [winBalls]);
-
-  const runTimer = () => {
     const timer = setTimeout(() => {
-      clearTimeout(timer);
       const ball = winNumbers.shift();
       if(winBalls.length < 6) {
         setWinBalls(prev => [...prev, ball]);
@@ -36,7 +31,10 @@ function Lotto () {
         setRedo(true);
       }
     }, 1000);
-  }
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [winBalls]);
   
   const onClickRedo = useCallback(() => {
     setWinNumbers(getWinNumbers());
